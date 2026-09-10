@@ -110,7 +110,7 @@
   .lg .k-ep{height:9px;background:var(--ep-soft);border-top:1.5px solid var(--ep);
             border-bottom:1.5px solid var(--ep)}
   .lg .k-gr{height:13px;width:13px;background:var(--sheet);border:1.5px solid var(--ep)}
-  .lg .k-rg{height:15px;width:15px;border-radius:50%;border:2px solid var(--exist)}
+  .lg .k-rg{height:14px;width:14px;border:2px solid var(--exist)}
   .lg .k-fa{height:0;border-top:3px solid var(--ink)}
   .lg .k-fl{width:0;height:0;border-left:9px solid var(--ep);
             border-top:5px solid transparent;border-bottom:5px solid transparent}
@@ -213,42 +213,43 @@
       <div>
         <span class="eyebrow">Plan de récolement · Eaux pluviales</span>
         <h1>Antenne EP Bâtiment D
-          <span class="sub">Grille 40×40 → regard existant · PVC Ø 160</span>
+          <span class="sub">Grille 40×40 → coude → regard carré existant · PVC Ø 160</span>
         </h1>
       </div>
     </div>
     <dl class="cart-grid">
       <div class="cell"><dt>Canalisation</dt><dd class="txt">PVC Ø 160<small>tracé en brun, NF P 98-332</small></dd></div>
-      <div class="cell"><dt>Linéaire relevé</dt><dd>8,00 m<small>2 tronçons · 3 points</small></dd></div>
+      <div class="cell"><dt>Façade bâtiment D</dt><dd>8,00 m<small>coude à 5,00 m de l'angle gauche</small></dd></div>
+      <div class="cell"><dt>Linéaire développé</dt><dd>8,12 m<small>5,00 m + 3,12 m</small></dd></div>
+      <div class="cell"><dt>Pente moyenne</dt><dd>1,23 %<small>1,0 % puis 1,6 %</small></dd></div>
       <div class="cell"><dt>Dénivelé fil d'eau</dt><dd>0,10 m<small>166,56 → 166,46</small></dd></div>
-      <div class="cell"><dt>Pente moyenne</dt><dd>1,25 %<small>1,0 % puis 1,7 %</small></dd></div>
-      <div class="cell"><dt>Ouvrages</dt><dd class="txt">1 grille · 1 regard<small>regard existant conservé</small></dd></div>
+      <div class="cell"><dt>Ouvrages</dt><dd class="txt">1 grille · 1 coude · 1 regard<small>regard carré existant conservé</small></dd></div>
       <div class="cell"><dt>Échelles</dt><dd class="txt">Graphiques<small>profil : hauteurs × 4</small></dd></div>
-      <div class="cell"><dt>Origine</dt><dd class="txt">Croquis chantier<small>date non portée</small></dd></div>
-      <div class="cell"><dt>Mise au net</dt><dd>10.09.2026<small>d'après relevé terrain</small></dd></div>
+      <div class="cell"><dt>Mise au net</dt><dd>10.09.2026<small>croquis + précisions chantier</small></dd></div>
     </dl>
   </header>
 
-  <p class="lede">Mise au net du croquis de récolement relevé au droit de la façade du bâtiment D.
-  L'antenne collecte la grille fonte placée devant le seuil de garage et rejoint un regard existant
-  8,00 m plus loin, avec une reprise de pente au droit du seuil d'entrée.</p>
+  <p class="lede">Mise au net du croquis de récolement relevé le long de la façade du bâtiment D.
+  L'antenne collecte la grille fonte posée à l'angle gauche du bâtiment, longe la façade sur 5,00 m
+  jusqu'à un coude, puis s'en écarte sur les 3,00 m restants pour rejoindre le regard carré existant,
+  aligné sur l'angle droit du bâtiment.</p>
 
   <!-- ============================= VUE EN PLAN ============================= -->
   <section>
     <div class="s-head">
       <span class="s-num">01</span>
       <h2>Vue en plan</h2>
-      <span class="s-note">cotes en mètres · écarts mesurés perpendiculairement à la façade</span>
+      <span class="s-note">cotes en mètres · 5,00 / 3,00 / 8,00 mesurés le long de la façade</span>
     </div>
 
     <figure>
       <div class="plate">
-        <svg viewBox="0 0 1020 400" role="img"
-             aria-label="Vue en plan : le long de la façade du bâtiment D, une grille fonte 40 sur 40 à fil d'eau 166,56 est reliée par 5,00 m de PVC Ø160 à un point de relevé à fil d'eau 166,51 situé au droit du seuil d'entrée, puis par 3,00 m à un regard existant à fil d'eau 166,46, écarté de 1,20 m du bâtiment.">
+        <svg viewBox="0 0 1020 420" role="img"
+             aria-label="Vue en plan : le bâtiment D mesure 8,00 m de façade. Une grille fonte 40 sur 40 à fil d'eau 166,56 est posée à l'angle gauche, à 0,50 m du mur. La canalisation PVC Ø160 longe la façade jusqu'à un coude d'environ 15 degrés situé à 5,00 m de l'angle gauche, écarté de 0,35 m, à fil d'eau 166,51. Elle s'écarte ensuite sur les 3,00 m restants pour rejoindre un regard carré existant aligné sur l'angle droit du bâtiment, à 1,20 m de la façade, à fil d'eau 166,46.">
           <defs>
             <marker id="ahA" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="6.5" markerHeight="6.5"
                     orient="auto-start-reverse"><path d="M0.5,1 L9.2,5 L0.5,9 Z" style="fill:var(--ink)"/></marker>
-            <pattern id="gA" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="translate(140,118)">
+            <pattern id="gA" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="translate(140,170)">
               <path class="g-fine" d="M22.5 0V90 M45 0V90 M67.5 0V90 M0 22.5H90 M0 45H90 M0 67.5H90"/>
               <path class="g-coarse" d="M0 0V90 M0 0H90"/>
             </pattern>
@@ -257,86 +258,98 @@
             </pattern>
           </defs>
 
-          <rect class="sh-bg" x="0" y="0" width="1020" height="400"/>
-          <rect x="0" y="0" width="1020" height="400" fill="url(#gA)"/>
+          <rect class="sh-bg" x="0" y="0" width="1020" height="420"/>
+          <rect x="0" y="0" width="1020" height="420" fill="url(#gA)"/>
+
+          <!-- cotes du bâtiment -->
+          <path class="ln-thin" d="M140 62 V20 M860 62 V20"/>
+          <path class="dim" d="M140 26 H860" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
+          <text class="n" x="497" y="20" text-anchor="end">8,00</text>
+          <text class="t-s" x="507" y="20">FAÇADE BÂTIMENT D</text>
+          <path class="dim" d="M140 54 H860"/>
+          <path class="dim" d="M135 60 L145 48 M585 60 L595 48 M855 60 L865 48"/>
+          <text class="n" x="365" y="47" text-anchor="middle">5,00</text>
+          <text class="n" x="725" y="47" text-anchor="middle">3,00</text>
+
+          <!-- alignement angle droit / regard -->
+          <path class="ex-l" stroke-width="1" stroke-dasharray="10 4 2 4" opacity=".85" d="M860 62 V245 M860 311 V322"/>
 
           <!-- bâtiment -->
-          <rect class="bld" x="40" y="24" width="920" height="94"/>
-          <rect x="40" y="24" width="920" height="94" fill="url(#hatch)" stroke="none"/>
-          <text class="t-big" x="500" y="62" text-anchor="middle">BÂTIMENT D</text>
-          <path class="facade" d="M40 118 H960"/>
+          <rect class="bld" x="140" y="66" width="720" height="104"/>
+          <rect x="140" y="66" width="720" height="104" fill="url(#hatch)" stroke="none"/>
+          <text class="t-big" x="500" y="112" text-anchor="middle">BÂTIMENT D</text>
+          <path class="facade" d="M140 170 H860"/>
+          <path class="ext" d="M860 170 H936"/>
+
+          <!-- ligne de rappel du coude -->
+          <path class="ext" d="M590 48 V201.5"/>
 
           <!-- seuils -->
-          <path class="ln" d="M133 111 L147 125 M133 125 L147 111"/>
-          <path class="ln" d="M583 111 L597 125 M583 125 L597 111"/>
-          <text class="t" x="154" y="103">SEUIL GARAGE <tspan class="n" dx="2">167,02</tspan></text>
-          <text class="t" x="604" y="103">SEUIL ENTRÉE <tspan class="n" dx="2">166,97</tspan></text>
+          <path class="ln" d="M133 163 L147 177 M133 177 L147 163"/>
+          <path class="ln" d="M583 163 L597 177 M583 177 L597 163"/>
+          <text class="t" x="154" y="155">SEUIL GARAGE <tspan class="n" dx="2">167,02</tspan></text>
+          <text class="t" x="604" y="155">SEUIL ENTRÉE <tspan class="n" dx="2">166,97</tspan></text>
 
           <!-- canalisation -->
-          <polyline class="pipe-out" points="158,145.2 590,149.5 834,218.6"/>
-          <polyline class="pipe-in"  points="158,145.2 590,149.5 834,218.6"/>
-          <polyline class="pipe-ax"  points="158,145.2 590,149.5 834,218.6"/>
-          <polygon class="ep-f" points="429,147.8 413,144.6 413,151.0"/>
-          <polygon class="ep-f" points="747.7,194.2 733.3,193.7 735.1,187.1"/>
-          <text class="t" x="370" y="131" text-anchor="middle" style="fill:var(--ep)">PVC Ø 160 — EP</text>
+          <polyline class="pipe-out" points="158,197.2 590,201.5 833,270.35"/>
+          <polyline class="pipe-in"  points="158,197.2 590,201.5 833,270.35"/>
+          <polyline class="pipe-ax"  points="158,197.2 590,201.5 833,270.35"/>
+          <polygon class="ep-f" points="429,199.8 413,196.6 413,203.0"/>
+          <polygon class="ep-f" points="737.7,243.4 723.3,242.9 725.1,236.3"/>
+          <text class="t" x="370" y="228" text-anchor="middle" style="fill:var(--ep)">PVC Ø 160 — EP</text>
+          <text class="n-s" x="762" y="278" text-anchor="middle">développé 3,12</text>
+
+          <!-- coude -->
+          <circle class="ep-f" cx="590" cy="201.5" r="3.4"/>
+          <path class="ep-l" stroke-width="1" d="M654 202.1 A 64 64 0 0 1 651.6 218.9"/>
+          <text class="n-ep" x="664" y="199">≈ 15°</text>
 
           <!-- grille 40x40 -->
-          <rect class="sheet-f" x="122" y="127" width="36" height="36"/>
-          <rect class="ep-l" x="122" y="127" width="36" height="36" stroke-width="2"/>
-          <path class="ep-l" stroke-width=".8" d="M131 129V161 M140 129V161 M149 129V161"/>
+          <rect class="sheet-f" x="122" y="179" width="36" height="36"/>
+          <rect class="ep-l" x="122" y="179" width="36" height="36" stroke-width="2"/>
+          <path class="ep-l" stroke-width=".8" d="M131 181V213 M140 181V213 M149 181V213"/>
 
-          <!-- regard existant -->
-          <circle class="sheet-f" cx="860" cy="226" r="27"/>
-          <circle class="ex-l" cx="860" cy="226" r="27" stroke-width="2.5"/>
-          <circle class="ex-l" cx="860" cy="226" r="19" stroke-width="1" stroke-dasharray="3 3"/>
+          <!-- regard carré existant -->
+          <rect class="sheet-f" x="833" y="251" width="54" height="54"/>
+          <rect class="ex-l" x="833" y="251" width="54" height="54" stroke-width="2.5"/>
+          <rect class="ex-l" x="841" y="259" width="38" height="38" stroke-width="1" stroke-dasharray="3 3"/>
 
           <!-- cotes transversales -->
-          <path class="dim" d="M110 118 V163" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
-          <path class="ln-thin" d="M106 163 H122"/>
-          <text class="n" x="102" y="145" text-anchor="end">0,50</text>
+          <path class="dim" d="M110 170 V215" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
+          <path class="ln-thin" d="M106 215 H122"/>
+          <text class="n" x="102" y="197" text-anchor="end">0,50</text>
 
-          <path class="ln-thin" d="M590 149.5 H624"/>
-          <path class="dim" d="M618 118 V149.5" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
-          <text class="n" x="628" y="137">0,35</text>
+          <path class="ln-thin" d="M590 201.5 H624"/>
+          <path class="dim" d="M618 170 V201.5" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
+          <text class="n" x="628" y="189">0,35</text>
 
-          <path class="ln-thin" d="M887 226 H904"/>
-          <path class="dim" d="M898 118 V226" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
-          <text class="n" x="908" y="176">1,20</text>
+          <path class="ln-thin" d="M887 278 H936"/>
+          <path class="dim" d="M930 170 V278" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
+          <text class="n" x="924" y="226" text-anchor="end">1,20</text>
 
           <!-- repères + fils d'eau -->
-          <text class="t-rep" x="150" y="190">G1</text>
-          <text class="t-s" x="176" y="190">GRILLE FONTE 40×40</text>
-          <text class="n-ep" x="150" y="207">fe 166,56</text>
+          <text class="t-rep" x="150" y="250">G1</text>
+          <text class="t-s" x="176" y="250">GRILLE FONTE 40×40 — ANGLE GAUCHE</text>
+          <text class="n-ep" x="150" y="267">fe 166,56</text>
 
-          <text class="t-s" x="580" y="190" text-anchor="end">AU DROIT DU SEUIL D'ENTRÉE</text>
-          <text class="t-rep" x="600" y="190">P1</text>
-          <text class="n-ep" x="600" y="207">fe 166,51</text>
+          <text class="t-s" x="580" y="250" text-anchor="end">COUDE SUR CANALISATION</text>
+          <text class="t-rep" x="600" y="250">C1</text>
+          <text class="n-ep" x="600" y="267">fe 166,51</text>
 
-          <text class="t-rep" x="806" y="278">R1</text>
-          <text class="t-s" x="832" y="278">REGARD EXISTANT</text>
-          <text class="n-ep" x="860" y="295" text-anchor="middle">fe 166,46</text>
-
-          <!-- chaîne de cotes -->
-          <path class="ext" d="M140 216 V326 M590 216 V326 M860 304 V326"/>
-          <path class="dim" d="M140 320 H860"/>
-          <path class="dim" d="M135 326 L145 314 M585 326 L595 314 M855 326 L865 314"/>
-          <text class="n" x="365" y="313" text-anchor="middle">5,00</text>
-          <text class="n" x="725" y="313" text-anchor="middle">3,00</text>
-
-          <path class="dim" d="M140 352 H860" marker-start="url(#ahA)" marker-end="url(#ahA)"/>
-          <text class="n" x="500" y="345" text-anchor="middle">8,00</text>
-          <text class="t-s" x="540" y="345">LINÉAIRE TOTAL</text>
+          <text class="t-rep" x="795" y="332">R1</text>
+          <text class="t-s" x="821" y="332">REGARD CARRÉ EXISTANT</text>
+          <text class="n-ep" x="860" y="349" text-anchor="middle">fe 166,46</text>
 
           <!-- échelle graphique -->
           <g>
-            <rect x="40" y="368" width="45" height="8" style="fill:var(--ink)"/>
-            <rect x="85" y="368" width="45" height="8" class="sheet-f" stroke="var(--ink)" stroke-width="1"/>
-            <rect x="130" y="368" width="45" height="8" style="fill:var(--ink)"/>
-            <rect x="175" y="368" width="45" height="8" class="sheet-f" stroke="var(--ink)" stroke-width="1"/>
-            <text class="n-s" x="40" y="392" text-anchor="middle">0</text>
-            <text class="n-s" x="130" y="392" text-anchor="middle">1</text>
-            <text class="n-s" x="220" y="392" text-anchor="middle">2 m</text>
-            <text class="t-s" x="248" y="392">ÉCHELLE GRAPHIQUE · TRAME = 1,00 m</text>
+            <rect x="40" y="386" width="45" height="8" style="fill:var(--ink)"/>
+            <rect x="85" y="386" width="45" height="8" class="sheet-f" stroke="var(--ink)" stroke-width="1"/>
+            <rect x="130" y="386" width="45" height="8" style="fill:var(--ink)"/>
+            <rect x="175" y="386" width="45" height="8" class="sheet-f" stroke="var(--ink)" stroke-width="1"/>
+            <text class="n-s" x="40" y="410" text-anchor="middle">0</text>
+            <text class="n-s" x="130" y="410" text-anchor="middle">1</text>
+            <text class="n-s" x="220" y="410" text-anchor="middle">2 m</text>
+            <text class="t-s" x="248" y="410">ÉCHELLE GRAPHIQUE · TRAME = 1,00 m</text>
           </g>
         </svg>
       </div>
@@ -344,12 +357,14 @@
         <span class="lg"><i class="k-fa"></i>Façade bâtiment D</span>
         <span class="lg"><i class="k-ep"></i>PVC Ø 160 EP (posé)</span>
         <span class="lg"><i class="k-gr"></i>Grille fonte 40×40</span>
-        <span class="lg"><i class="k-rg"></i>Regard existant</span>
+        <span class="lg"><i class="k-rg"></i>Regard carré existant</span>
         <span class="lg"><i class="k-fl"></i>Sens d'écoulement</span>
       </div>
-      <figcaption><b>Fig. 1 — Vue en plan.</b> Le tracé suit la façade à environ 0,30 m puis s'en écarte
-      dans les 3 derniers mètres pour rejoindre le regard existant, à 1,20 m du bâtiment.
-      La trame de fond vaut 1,00 m ; le dessin est à l'échelle, contrairement au croquis d'origine.</figcaption>
+      <figcaption><b>Fig. 1 — Vue en plan.</b> Les 5,00 m et 3,00 m se lisent sur la façade, qui fait
+      8,00 m au total : ils situent le coude à 5,00 m de l'angle gauche. L'axe mixte de droite marque
+      l'alignement de l'angle droit du bâtiment sur le regard. Le second tronçon parcourt 3,00 m le
+      long du bâtiment mais <b>3,12 m développés</b>, l'écart au mur passant de 0,35 à 1,20 m.
+      La trame de fond vaut 1,00 m.</figcaption>
     </figure>
   </section>
 
@@ -358,13 +373,13 @@
     <div class="s-head">
       <span class="s-num">02</span>
       <h2>Profil en long</h2>
-      <span class="s-note">longueurs 1 : 1 du plan · hauteurs exagérées × 4</span>
+      <span class="s-note">abscisses = longueurs développées · hauteurs exagérées × 4</span>
     </div>
 
     <figure>
       <div class="plate">
         <svg viewBox="0 0 1020 424" role="img"
-             aria-label="Profil en long : le fil d'eau descend de 166,56 à G1 vers 166,51 à P1 sur 5,00 m, soit une pente de 1,0 %, puis vers 166,46 au regard R1 sur 3,00 m, soit 1,7 %. Le fil d'eau est à 0,46 m sous le niveau des seuils aux deux points relevés.">
+             aria-label="Profil en long : le fil d'eau descend de 166,56 à la grille vers 166,51 au coude sur 5,00 m développés, soit une pente de 1,0 %, puis vers 166,46 au regard sur 3,12 m développés, soit 1,6 %. Le fil d'eau est à 0,46 m sous le niveau des seuils aux deux points relevés.">
           <defs>
             <marker id="ahB" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="6.5" markerHeight="6.5"
                     orient="auto-start-reverse"><path d="M0.5,1 L9.2,5 L0.5,9 Z" style="fill:var(--ink)"/></marker>
@@ -372,11 +387,10 @@
 
           <rect class="sh-bg" x="0" y="0" width="1020" height="424"/>
 
-          <!-- grille de cotes -->
           <path class="g-coarse" d="M100 40H960 M100 76H960 M100 112H960 M100 148H960 M100 184H960
                                      M100 220H960 M100 256H960 M100 292H960 M100 328H960"/>
           <path class="g-fine" d="M230 40V328 M320 40V328 M410 40V328 M500 40V328 M680 40V328
-                                   M770 40V328 M950 40V328"/>
+                                   M770 40V328 M860 40V328 M950 40V328"/>
           <path class="axis" d="M100 40 V328"/>
           <path class="ln-thin" d="M94 40H100 M94 76H100 M94 112H100 M94 148H100 M94 184H100
                                     M94 220H100 M94 256H100 M94 292H100 M94 328H100"/>
@@ -391,36 +405,32 @@
           <text class="n-s" x="88" y="331.5" text-anchor="end">166,30</text>
           <text class="t-s" x="96" y="28" text-anchor="end">COTES NGF (m)</text>
 
-          <!-- lignes de station -->
-          <path class="ext" d="M140 40V340 M590 40V340 M860 40V340"/>
+          <path class="ext" d="M140 40V340 M590 40V340 M871 40V340"/>
           <text class="t-rep" x="140" y="30" text-anchor="middle">G1</text>
-          <text class="t-rep" x="590" y="30" text-anchor="middle">P1</text>
-          <text class="t-rep" x="860" y="30" text-anchor="middle">R1</text>
+          <text class="t-rep" x="590" y="30" text-anchor="middle">C1</text>
+          <text class="t-rep" x="871" y="30" text-anchor="middle">R1</text>
 
-          <!-- niveau des seuils -->
           <path class="ln" stroke-dasharray="9 3 2 3" d="M140 68.8 L590 86.8"/>
           <rect x="136" y="64.8" width="8" height="8" style="fill:var(--ink)"/>
           <rect x="586" y="82.8" width="8" height="8" style="fill:var(--ink)"/>
           <text class="t-s" x="365" y="62" text-anchor="middle">NIVEAU DES SEUILS</text>
-          <text class="i" x="604" y="80">terrain naturel non relevé au-delà de P1</text>
+          <text class="i" x="604" y="80">terrain naturel non relevé au-delà du coude</text>
 
-          <!-- corps de la canalisation -->
-          <path class="ep-body" d="M140 176.8 L590 194.8 L860 212.8 L860 270.4 L590 252.4 L140 234.4 Z"/>
-          <path class="ep-l" stroke-width="1.2" d="M140 176.8 L590 194.8 L860 212.8"/>
-          <path class="ep-l" stroke-width="2.4" d="M140 234.4 L590 252.4 L860 270.4"/>
-          <path class="ep-l" stroke-width="1.2" d="M140 176.8V234.4 M860 212.8V270.4"/>
+          <path class="ep-body" d="M140 176.8 L590 194.8 L871 212.8 L871 270.4 L590 252.4 L140 234.4 Z"/>
+          <path class="ep-l" stroke-width="1.2" d="M140 176.8 L590 194.8 L871 212.8"/>
+          <path class="ep-l" stroke-width="2.4" d="M140 234.4 L590 252.4 L871 270.4"/>
+          <path class="ep-l" stroke-width="1.2" d="M140 176.8V234.4 M871 212.8V270.4"/>
           <circle class="ep-f" cx="140" cy="234.4" r="3.6"/>
           <circle class="ep-f" cx="590" cy="252.4" r="3.6"/>
-          <circle class="ep-f" cx="860" cy="270.4" r="3.6"/>
+          <circle class="ep-f" cx="871" cy="270.4" r="3.6"/>
           <text class="n-ep" x="365" y="272" text-anchor="middle">pente 1,0 %</text>
-          <text class="n-ep" x="725" y="292" text-anchor="middle">pente 1,7 %</text>
+          <text class="n-ep" x="730" y="292" text-anchor="middle">pente 1,6 %</text>
 
-          <!-- regard existant, hauteur inconnue -->
-          <path class="ex-l" stroke-width="2" stroke-dasharray="6 4" d="M846 270.4 V192 M874 270.4 V192"/>
-          <path class="ex-l" stroke-width="1.6" d="M842 190 L852 184 L868 196 L878 190"/>
-          <text class="i" x="886" y="186">cote tampon non relevée</text>
+          <path class="ex-l" stroke-width="2.4" d="M844 274 H898"/>
+          <path class="ex-l" stroke-width="2" stroke-dasharray="6 4" d="M844 274 V200 M898 274 V200"/>
+          <path class="ex-l" stroke-width="1.6" d="M840 200 L856 194 L886 206 L902 200"/>
+          <text class="i" x="871" y="182" text-anchor="middle">cote tampon non relevée</text>
 
-          <!-- profondeurs sous seuil -->
           <path class="ln-thin" d="M140 68.8 H182 M140 234.4 H182"/>
           <path class="dim" d="M176 68.8 V234.4" marker-start="url(#ahB)" marker-end="url(#ahB)"/>
           <rect class="sheet-f" x="182" y="143" width="112" height="17"/>
@@ -433,25 +443,27 @@
           <text class="n" x="636" y="174">0,46</text>
           <text class="t-s" x="666" y="174">SOUS SEUIL</text>
 
-          <!-- bandeau du profil -->
           <path class="ln" d="M0 340 H1020 M0 366 H1020 M0 392 H1020 M0 418 H1020" stroke-width=".9"/>
-          <path class="ln" d="M100 340 V418 M140 366 V392 M590 366 V392 M860 366 V392" stroke-width=".9"/>
-          <path class="ln-thin" d="M140 340 V346 M590 340 V346 M860 340 V346 M140 360 V366 M590 360 V366 M860 360 V366 M140 392 V398 M590 392 V398 M860 392 V398 M140 412 V418 M590 412 V418 M860 412 V418"/>
+          <path class="ln" d="M100 340 V418 M140 366 V392 M590 366 V392 M871 366 V392" stroke-width=".9"/>
+          <path class="ln-thin" d="M140 340 V346 M590 340 V346 M871 340 V346 M140 360 V366 M590 360 V366
+                                    M871 360 V366 M140 392 V398 M590 392 V398 M871 392 V398
+                                    M140 412 V418 M590 412 V418 M871 412 V418"/>
           <text class="t-s" x="94" y="357" text-anchor="end">FIL D'EAU</text>
-          <text class="t-s" x="94" y="383" text-anchor="end">DIST. PARTIELLE</text>
+          <text class="t-s" x="94" y="383" text-anchor="end">LONG. DÉV.</text>
           <text class="t-s" x="94" y="409" text-anchor="end">DIST. CUMULÉE</text>
           <text class="n" x="140" y="357" text-anchor="middle">166,56</text>
           <text class="n" x="590" y="357" text-anchor="middle">166,51</text>
-          <text class="n" x="860" y="357" text-anchor="middle">166,46</text>
+          <text class="n" x="871" y="357" text-anchor="middle">166,46</text>
           <text class="n" x="365" y="383" text-anchor="middle">5,00</text>
-          <text class="n" x="725" y="383" text-anchor="middle">3,00</text>
+          <text class="n" x="730" y="383" text-anchor="middle">3,12</text>
           <text class="n" x="140" y="409" text-anchor="middle">0,00</text>
           <text class="n" x="590" y="409" text-anchor="middle">5,00</text>
-          <text class="n" x="860" y="409" text-anchor="middle">8,00</text>
+          <text class="n" x="871" y="409" text-anchor="middle">8,12</text>
         </svg>
       </div>
-      <figcaption><b>Fig. 2 — Profil en long.</b> Aucune contre-pente : 5 cm de chute sur
-      chaque tronçon, soit 1,0 % puis 1,7 % en direction du regard.
+      <figcaption><b>Fig. 2 — Profil en long.</b> Les abscisses sont les longueurs réelles de
+      canalisation, pas les cotes du bâtiment : le second tronçon compte 3,12 m et sa pente vaut donc
+      1,6 % et non 1,7 %. Aucune contre-pente : 5 cm de chute sur chaque tronçon vers le regard.
       Le fil d'eau se tient à 0,46 m sous les deux seuils relevés, ce qui recoupe les deux points.</figcaption>
     </figure>
   </section>
@@ -461,7 +473,7 @@
     <div class="s-head">
       <span class="s-num">03</span>
       <h2>Tableau des cotes</h2>
-      <span class="s-note">valeurs reportées telles que relevées</span>
+      <span class="s-note">altitudes telles que relevées · longueurs calculées du tracé</span>
     </div>
     <div class="tbl-scroll">
       <table>
@@ -473,34 +485,34 @@
             <th scope="col">Cote seuil</th>
             <th scope="col">Fil d'eau</th>
             <th scope="col">Prof. / seuil</th>
-            <th scope="col">Dist. part.</th>
-            <th scope="col">Dist. cum.</th>
+            <th scope="col">Abscisse façade</th>
+            <th scope="col">Long. dév.</th>
             <th scope="col">Pente</th>
             <th scope="col">Écart bât.</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>G1</td><td>Grille fonte 40×40, devant le seuil de garage</td>
+            <td>G1</td><td>Grille fonte 40×40, à l'angle gauche du bâtiment</td>
             <td>167,02</td><td class="fe">166,56</td><td>0,46</td>
-            <td class="na">—</td><td>0,00</td><td class="na">—</td><td>0,50</td>
+            <td>0,00</td><td class="na">—</td><td class="na">—</td><td>0,50</td>
           </tr>
           <tr>
-            <td>P1</td><td>Point de relevé sur canalisation, au droit du seuil d'entrée</td>
+            <td>C1</td><td>Coude ≈ 15° sur la canalisation, au droit du seuil d'entrée</td>
             <td>166,97</td><td class="fe">166,51</td><td>0,46</td>
             <td>5,00</td><td>5,00</td><td>1,0 %</td><td>0,35</td>
           </tr>
           <tr>
-            <td>R1</td><td>Regard existant — raccordement de l'antenne</td>
+            <td>R1</td><td>Regard carré existant, aligné sur l'angle droit du bâtiment</td>
             <td class="na">n. r.</td><td class="fe">166,46</td><td class="na">n. r.</td>
-            <td>3,00</td><td>8,00</td><td>1,7 %</td><td>1,20</td>
+            <td>8,00</td><td>3,12</td><td>1,6 %</td><td>1,20</td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
             <td></td><td>Ensemble PVC Ø 160</td>
             <td class="na">—</td><td class="fe">0,10</td><td class="na">—</td>
-            <td>8,00</td><td>8,00</td><td>1,25 %</td><td class="na">—</td>
+            <td>8,00</td><td>8,12</td><td>1,23 %</td><td class="na">—</td>
           </tr>
         </tfoot>
       </table>
@@ -515,25 +527,34 @@
     </div>
     <div class="notes">
       <ol class="notes-list">
-        <li><span>Le croquis d'origine n'est pas à l'échelle. Le présent schéma est construit
-        à l'échelle à partir des seules cotes écrites : 5,00 m, 3,00 ml, 0,50, 0,35, 1,20 et
-        les quatre altitudes.</span></li>
+        <li><span>Le croquis d'origine n'est pas à l'échelle. La planche est construite à l'échelle
+        à partir des seules cotes écrites — 5,00 · 3,00 · 8,00 · 0,50 · 0,35 · 1,20 et les quatre
+        altitudes — complétées des précisions données sur le tracé.</span></li>
+
+        <li class="warn"><span><b>Les 5,00 / 3,00 / 8,00 se lisent sur le bâtiment</b>, pas sur la
+        canalisation : la façade fait 8,00 m et ces cotes situent le coude à 5,00 m de l'angle gauche.
+        La longueur développée de la canalisation vaut donc <b>8,12 m</b> — le second tronçon
+        parcourt 3,00 m le long du bâtiment mais 3,12 m réels, l'écart au mur passant de 0,35 à
+        1,20 m. Les pentes sont calculées sur ces longueurs développées.</span></li>
+
+        <li><span>Le regard carré existant est <b>aligné sur l'angle droit du bâtiment</b> (même
+        abscisse) ; l'axe mixte porté au plan matérialise cet alignement.</span></li>
+
+        <li class="warn"><span><b>Angle du coude à confirmer.</b> La déviation de 15° portée au plan
+        est déduite du tracé (0,85 m d'écartement gagnés sur 3,00 m de façade). Le raccord réellement
+        posé — coude 15°, 22°30 avec reprise, ou courbure du tuyau — n'est pas indiqué au croquis.</span></li>
 
         <li class="warn"><span><b>Interprétation à confirmer.</b> Les cotes 0,50 / 0,35 / 1,20 sont
-        lues comme des écarts perpendiculaires à la façade du bâtiment D : bord extérieur de la
-        grille pour 0,50 (soit 0,10 m de jeu au mur + 0,40 m de grille), axe de la canalisation
-        pour 0,35, axe du regard pour 1,20. Aucune autre lecture ne recoupe les altitudes portées
-        au croquis.</span></li>
+        lues comme des écarts perpendiculaires à la façade : bord extérieur de la grille pour 0,50
+        (soit 0,10 m de jeu au mur + 0,40 m de grille), axe de la canalisation pour 0,35, axe du
+        regard pour 1,20.</span></li>
 
-        <li><span>Les repères <b>G1</b>, <b>P1</b> et <b>R1</b> sont ajoutés ici pour la lecture ;
+        <li><span>Les repères <b>G1</b>, <b>C1</b> et <b>R1</b> sont ajoutés ici pour la lecture ;
         ils ne figurent pas sur le croquis.</span></li>
 
-        <li><span>Le point P1 n'est pas un ouvrage : c'est un point de relevé du fil d'eau
-        pris au droit du seuil d'entrée, où la pente passe de 1,0 % à 1,7 %.</span></li>
-
         <li class="warn"><span><b>Non relevé.</b> Dimensions intérieures, cote tampon et profondeur du
-        regard existant ; terrain naturel au-delà du seuil d'entrée ; nature et diamètre de la
-        canalisation aval au départ du regard.</span></li>
+        regard carré ; terrain naturel au-delà du coude ; nature et diamètre de la canalisation aval
+        au départ du regard.</span></li>
 
         <li><span>Une annotation en marge du croquis, « –35 … du seuil », est barrée et ne se
         rattache à aucune cote de ce tronçon : elle n'a pas été reportée.</span></li>
